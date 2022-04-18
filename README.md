@@ -10,7 +10,7 @@
 
 ## :white_check_mark: branch naming **Convention**
 
-### backjoon
+### baekjoon
 
 ```
 git checkout -b "feature/kyeongmin/baj-문제번호"
