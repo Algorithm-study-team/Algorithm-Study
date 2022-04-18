@@ -11,8 +11,7 @@ https://www.acmicpc.net/problem/14923
 
 <h2>코드</h2>
 
-₩₩₩
-
+```java
 import java.io.*;  
 import java.util.*;
 
@@ -97,4 +96,4 @@ public class BJ_미로탈출_14923_G4 {
         return -1;
     }
 }
-₩₩₩
+```
