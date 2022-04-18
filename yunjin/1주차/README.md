@@ -1,6 +1,6 @@
 - 2022/04/18
 
-프린터 (프로그래머스 : [코딩테스트 연습 - 프린터 | 프로그래머스 (programmers.co.kr)](https://programmers.co.kr/learn/courses/30/lessons/42587?language=java#))
+프린터 (프로그래머스 : [코딩테스트 연습 - 프린터 | 프로그래머스 (programmers.co.kr)](https://programmers.co.kr/learn/courses/30/lessons/42587))
 
 유형 : 코딩테스트 연습 > 스택/큐 Lv2
 
