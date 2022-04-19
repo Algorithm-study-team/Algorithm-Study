@@ -11,3 +11,23 @@
 1. list for문 돌며 max값 구해서 푼것 : 시간초과 -> 다른방법 찾기
 2. for문 이나 while루프보다 stream()함수를 사용하면 편리하다.
 3. location위치를 따로 관리하려면 복잡하기 때문에 class를 사용해서 해결하면 좋다.
+
+
+
+- 2022/04/19
+
+완주하지 못한 선수 (프로그래머스 : [코딩테스트 연습 - 완주하지 못한 선수 | 프로그래머스 (programmers.co.kr)](https://programmers.co.kr/learn/courses/30/lessons/42576))
+
+유형 : 코딩테스트 연습 > 해시 Lv1
+
+문제 : 마라톤에 참여한 선수들의 이름이 담긴 배열 participant와 완주한 선수들의 이름이 담긴 배열 completion이 주어질 때, 완주하지 못한 선수의 이름을 return 하도록 solution 함수를 작성
+
+풀이 :
+
+1) Array.sort를 이용해서 해결
+
+2) 해시맵을 이용해서 해결
+
+2-1)  *Map.getOrDefault*(key, Default-value) => 찾는 키가 존재한다면 찾는 키의 값을 반환하고 없다면 기본 값을 반환한다.
+
+2-2) 값을 찾을 때는 map.keySet() or Map.Entry 사용
