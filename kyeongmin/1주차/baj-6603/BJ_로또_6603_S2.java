@@ -19,14 +19,14 @@ public class BJ_로또_6603_S2 {
                 array[i] = Integer.parseInt(st.nextToken());
             }
 
-            go(0,0,new int[6],new boolean[6]);
+            go(0,0,new int[6]);
             System.out.println();
         }
 
 
     }
 
-    private static void go(int start, int idx, int[] choosed, boolean[] visited){
+    private static void go(int start, int idx, int[] choosed){
         if(idx == choosed.length){
             for (int i = 0; i < choosed.length; i++) {
                 System.out.print(choosed[i]+" ");
@@ -38,7 +38,7 @@ public class BJ_로또_6603_S2 {
 
         for (int i = start; i < T; i++) {
                 choosed[idx] = array[i];
-                go(i+1,idx+1,choosed,visited);
+                go(i+1,idx+1,choosed);
         }
     }
 }
