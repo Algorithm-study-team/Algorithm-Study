@@ -31,3 +31,21 @@
 2-1)  *Map.getOrDefault*(key, Default-value) => 찾는 키가 존재한다면 찾는 키의 값을 반환하고 없다면 기본 값을 반환한다.
 
 2-2) 값을 찾을 때는 map.keySet() or Map.Entry 사용
+
+
+
+- 2022/04/20
+
+전화번호 목록 (프로그래머스 : [코딩테스트 연습 - 전화번호 목록 | 프로그래머스 (programmers.co.kr)](https://programmers.co.kr/learn/courses/30/lessons/42577))
+
+유형 : 코딩테스트 연습 > 해시 Lv1
+
+문제 : 어떤 번호가 다른 번호의 접두어인 경우가 있으면 false를 그렇지 않으면 true를 return 하도록 solution 함수를 작성
+
+풀이 :
+
+1) Array.sort를 이용해서 해결
+
+2) 해시맵을 이용해서 해결
+
+2-1)  해시맵을 돌면서 접두어가 있는지 판단 : map.containsKey(phone_book[i].substring(0,j))
