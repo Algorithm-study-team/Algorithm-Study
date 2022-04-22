@@ -61,3 +61,15 @@
 문제 : 스파이가 가진 의상들이 담긴 2차원 배열 clothes가 주어질 때 서로 다른 옷의 조합의 수를 return 하도록 solution 함수를 작성
 
 풀이 : 해시맵을 이용해서 해결
+
+
+
+- 2022/04/22
+
+신규 아이디 추천 (프로그래머스 :[코딩테스트 연습 - 신규 아이디 추천 | 프로그래머스 (programmers.co.kr)](https://programmers.co.kr/learn/courses/30/lessons/72410))
+
+유형 : 코딩테스트 연습 > 2021 kakao blind recruitment
+
+문제 : 신규 유저가 입력한 아이디를 나타내는 new_id가 매개변수로 주어질 때, "네오"가 설계한 7단계의 처리 과정을 거친 후의 추천 아이디를 return 하도록 solution 함수를 완성
+
+풀이 : 문자열을 변경 + 정규표현식을 이용하여 풀이
