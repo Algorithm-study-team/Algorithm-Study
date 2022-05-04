@@ -1,4 +1,4 @@
-- ## 문제이름: programmers 동명동물수찾기(Lv2)
+- ## 문제이름: programmers 동명 동물수찾기(Lv2)
 
   [코딩테스트 연습 - 동명 동물 수 찾기 | 프로그래머스 (programmers.co.kr)](https://programmers.co.kr/learn/courses/30/lessons/59041)
 
