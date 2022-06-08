@@ -7,7 +7,7 @@ https://www.acmicpc.net/problem/10825
 
 result = sorted(array, key = lambda x : (-int(x[1]),int(x[2]),-int(x[3]),x[0]))
 
-1. 국어 점수가 감소하는 순서로 - (-int(x[1])  -를 붙이면 내림차순
+1. 국어 점수가 감소하는 순서로 (-int(x[1]) -를 붙이면 내림차순
 
 2. 국어 점수가 같으면 영어 점수가 증가하는 순서로 (int(x[2])) 오름차순
 
