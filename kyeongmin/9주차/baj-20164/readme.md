@@ -32,6 +32,7 @@ def count(x):
         
         if n % 2 == 1:
             cnt+=1
+            
         x//=10
     return cnt
 
